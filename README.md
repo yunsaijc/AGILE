@@ -2,13 +2,14 @@
 
 ## Project Overview
 
-This project implements the AGILE framework, an activation-guided local editing method for jailbreak attacks (\href{https://arxiv.org/abs/2508.00555}{https://arxiv.org/abs/2508.00555}). The framework analyzes the internal activation patterns of large language models when refusing harmful requests and trains classifiers to guide the generation of adversarial examples.
+This project implements the AGILE framework, an activation-guided local editing method for jailbreak attacks ([arXiv:2508.00555](https://arxiv.org/abs/2508.00555)). The framework analyzes the internal activation patterns of large language models when refusing harmful requests and trains classifiers to guide the generation of adversarial examples.
 
 ## Project Structure
 
 ```
 AGILE/
 ├── agile/
+│   ├── __init__.py             # Package initialization
 │   └── model/
 │       ├── AGILEManager.py      # Core manager for AGILE framework
 │       ├── ClassifierManager.py # Training and management of classifiers
@@ -64,8 +65,9 @@ Main dependencies include:
 - sentence-transformers
 - Other dependencies see `requirements.txt`
 
-# Citation
-If you find this project helpful for your research, please consider citing the following BibTeX entry.
+## Citation
+
+If you find this project helpful for your research, please consider citing the following BibTeX entry:
 ```
 @misc{wang2025activationguidedlocaleditingjailbreaking,
       title={Activation-Guided Local Editing for Jailbreaking Attacks}, 
