@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements the AGILE framework, an activation-guided local editing method for jailbreak attacks. The framework analyzes the internal activation patterns of large language models when refusing harmful requests and trains classifiers to guide the generation of adversarial examples.
+This project implements the AGILE framework, an activation-guided local editing method for jailbreak attacks (\href{https://arxiv.org/abs/2508.00555}{https://arxiv.org/abs/2508.00555}). The framework analyzes the internal activation patterns of large language models when refusing harmful requests and trains classifiers to guide the generation of adversarial examples.
 
 ## Project Structure
 
@@ -63,3 +63,17 @@ Main dependencies include:
 - spaCy
 - sentence-transformers
 - Other dependencies see `requirements.txt`
+
+# Citation
+If you find this project helpful for your research, please consider citing the following BibTeX entry.
+```
+@misc{wang2025activationguidedlocaleditingjailbreaking,
+      title={Activation-Guided Local Editing for Jailbreaking Attacks}, 
+      author={Jiecong Wang and Haoran Li and Hao Peng and Ziqian Zeng and Zihao Wang and Haohua Du and Zhengtao Yu},
+      year={2025},
+      eprint={2508.00555},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2508.00555}, 
+}
+```
